@@ -1,14 +1,16 @@
 LOGINS
+Admin
 email: admin@email.com
 pw: adminpass
 
+User
 email: laracroft@gmail.com
 pw: larapass
 
 email: tonystark@gmail.com
 pw: tonypass
 
-DB4FREE 
+DB4FREE
 database name: anastasia
 username: anastasia
 password: anastasiapass
