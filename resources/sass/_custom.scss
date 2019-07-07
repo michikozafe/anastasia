@@ -1,0 +1,236 @@
+$primary-color: #c67ecd;
+$navbar-color: #f260a6;
+$brand-title-color: #88597d;
+$background-color: #ffe6ed;
+$brand-font: "Dancing Script", cursive;
+$text-font: "Sawarabi Gothic", sans-serif;
+$title-font: "Mitr", sans-serif;
+
+body {
+    font-family: $text-font;
+    box-sizing: border-box;
+    // background-color: $bg-color;
+}
+
+.navbar {
+    background-color: $navbar-color;
+    .navbar-title {
+        font-family: $brand-font;
+        font-size: 1.5rem;
+    }
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#footer {
+    background-color: $navbar-color;
+}
+
+.header-style {
+    font-family: $title-font;
+    color: $brand-title-color;
+}
+
+.header-font-size {
+    font-size: 2rem;
+}
+
+.header-color {
+    color: $brand-title-color;
+}
+
+.btn-main {
+    background-color: $primary-color;
+    color: #f1f1f1;
+}
+
+.btn-main:hover {
+    background-color:#f1f1f1;;
+    color: $primary-color;
+}
+.w-30 {
+    width: 30%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+// Remove Scrollbars on Input type number
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputForAdminSearch {
+    width: 300px;
+}
+
+tbody tr:hover {
+    background-color: $background-color;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.bg {
+    background-image: url("https://images.pexels.com/photos/265705/pexels-photo-265705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 100vh;
+    // width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.content {
+    position: fixed;
+    top: 80px;
+    left: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    height: 40%;
+    width: 30%;
+    padding: 20px;
+    font-family: "Taviraj", serif;
+    border-radius: 30px;
+
+    .btn-index {
+        background-color: grey;
+        text-decoration: none;
+        color: #f1f1f1;
+    }
+    .btn-index:hover {
+        background-color: #f1f1f1;
+        color: grey;
+    }
+}
+
+#howItWorks {
+    padding: 40rem;
+}
+
+// Collections Page
+.page-header {
+    background: url("https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2017/04/br_aged_windowv1_a_fg.jpg");
+    position: relative;
+    min-height: 350px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    h2 {
+        line-height: 350px;
+        font-size: 5rem;
+        text-shadow: 2px 2px black;
+        font-family: $title-font;
+    }
+}
+
+.collections-count {
+    font-family: "Alegreya", serif;
+    font-size: 2.5rem;
+}
+
+.collections-description {
+    color: $primary-color;
+    font-family: "Mitr", sans-serif;
+    font-size: 1.2rem;
+}
+
+#collectionsContent {
+    a {
+        text-decoration: none;
+        color: $primary-color;
+    }
+
+    a:hover {
+        color: $navbar-color;
+    }
+
+    .btn-collections-filter {
+        background-color: $primary-color;
+        color: #f1f1f1;
+    }
+
+    .btn-collections-filter:hover {
+        background-color: #f1f1f1;
+        color: $primary-color;
+    }
+
+    .card {
+        box-shadow: 2px 2px lightgrey;
+    }
+
+    .list-group-item:hover {
+        background-color: $primary-color;
+        a {
+            color: #f1f1f1;
+        }
+    }
+}
+
+// Collection Item Page
+#collection-item {
+    .btn-collection-item {
+        background-color: $primary-color;
+        color: #f1f1f1;
+    }
+
+    .btn-collection-item:hover {
+        background-color: #f1f1f1;
+        color: $primary-color;
+    }
+
+    .input {
+        width: 8%;
+        line-height: 2;
+        text-align: center;
+    }
+
+    .operatorBtns {
+        border: none;
+        background-color: $primary-color;
+    }
+
+    .final-price {
+        font-size: 1.5rem;
+    }
+
+}
+
+// Dashboard
+.dashboard-date {
+    font-size: 0.9rem;
+}
+
+.sidebar {
+    background-color: $background-color;
+    height: 100vh;
+    .dashboard-links:hover{
+        background-color: $primary-color;
+        a {
+            color: #f1f1f1;
+        }
+    }
+    a {
+        color: $brand-title-color;
+    }
+}
+
+.login-header, .register-header {
+    background-color: $primary-color;
+    color: #f1f1f1;
+}

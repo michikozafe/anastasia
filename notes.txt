@@ -1,0 +1,80 @@
+LOGINS
+email: admin@email.com
+pw: adminpass
+
+email: laracroft@gmail.com
+pw: larapass
+
+email: tonystark@gmail.com
+pw: tonypass
+
+DB4FREE 
+database name: anastasia
+username: anastasia
+password: anastasiapass
+email: tayibad@greentech5.com
+
+CATEGORIES
+$category = new \App\Category;
+$category->name = "Evening Gown";
+$category->save();
+
+$category = new \App\Category;
+$category->name = "Wedding Gown";
+$category->save();
+
+$category = new \App\Category;
+$category->name = "Tuxedo";
+$category->save();
+
+$category = new \App\Category;
+$category->name = "Barong";
+$category->save();
+
+STATUSES
+$status = new \App\Status;
+$status->name = "pending";
+$status->save();
+
+$status = new \App\Status;
+$status->name = "completed";
+$status->save();
+
+$status = new \App\Status;
+$status->name = "cancelled";
+$status->save();
+
+SIZES
+$size = new \App\Size;
+$size->name = "small";
+$size->save();
+
+$size = new \App\Size;
+$size->name = "medium";
+$size->save();
+
+$size = new \App\Size;
+$size->name = "large";
+$size->save();
+
+PRODUCTS
+$product = new \App\Product;
+$product->name = "Jasmine";
+$product->description = "1";
+$product->price = 1;
+$product->category_id = 1;
+$product->save();
+
+$product = new \App\Product;
+$product->name = "Cinderella";
+$product->description = "2";
+$product->price = 2;
+$product->category_id = 2;
+$product->save();
+
+$product = new \App\Product;
+$product->name = "Rapunzel";
+$product->description = "3";
+$product->price = 3;
+$product->category_id = 3;
+$product->save();
